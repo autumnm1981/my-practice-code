@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e3b1af4d-de26-4d93-b566-7753dac8b960" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8779/MyWCF/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelloWorldService.wsdl" MetadataType="Wsdl" ID="f48f22ee-5700-436b-a67e-3b60a325fae3" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="f24e4051-cacf-4d0d-ad3d-8b81b5546b50" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="15856c4e-f59b-44e0-a135-2af93cab49f9" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="f15f6a70-57ab-459b-b970-3421307d9dbe" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="cede4489-655f-4ea5-8813-ea19da2eb3b8" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?disco" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="dbe4e22a-3437-4afa-bf31-fba406a9cdd4" SourceId="1" SourceUrl="http://localhost:8779/MyWCF/?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
